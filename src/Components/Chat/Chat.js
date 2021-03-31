@@ -30,6 +30,7 @@ const Chat = ({location}) =>{
         socket.emit('join',{name,room});
         socket.on('roomData',({room,users})=>{
             setUsers(users);
+            console.log(users);
         })
         return ()=>{
             socket.emit('disconnect');

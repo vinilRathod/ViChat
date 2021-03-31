@@ -1,0 +1,93 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #root {
+    height: 100vh;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .homeOuterContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #1A1A1D;
+  }
+  
+  .homeInnerContainer {
+    width: 70%;
+  }
+  
+  .homeInput {
+    padding: 15px 20px;
+    width: 30%;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 2.0em;
+    padding-bottom: 10px;
+
+  }
+  .subheading {
+    color: white;
+    font-size: 1.5em;
+    width:100%
+  }
+  .welcome {
+    color: white;
+    font-size: 2.5em;
+  }
+  .footer {
+    color: white;
+    font-size: 1em;
+    padding-top: 10px;
+  }
+  a{
+      text-decoration: underline;
+      color:azure;
+  }
+  a:hover{
+      cursor: pointer;
+  }
+  button:hover{
+      cursor: pointer;
+  }
+  .button {
+      color: #fff !important;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: #2979FF;
+      padding: 20px;
+      border-radius: 5px;
+      display: inline-block;
+      border: none;
+      width: 20%;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 420px) and (max-width: 480px) {
+    .homeOuterContainer {
+      height: 100%;
+    }
+  
+    .homeInnerContainer {
+      width: 100%;
+    }
+  
+  
+  }
+  
+  button:focus {
+    outline: 0;
+  }
