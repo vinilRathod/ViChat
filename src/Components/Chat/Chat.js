@@ -30,7 +30,7 @@ const Chat = ({location}) =>{
         socket.emit('join',{name,room});
         socket.on('roomData',({room,users})=>{
             setUsers(users);
-            console.log(users);
+            
         })
         return ()=>{
             socket.emit('disconnect');
@@ -50,7 +50,6 @@ const Chat = ({location}) =>{
             socket.emit('sendMessage',message,()=>setMessage(''));
         }
     }
-    console.log(message,messages);
     return(
         <div className="outerContainer">
             <div className="container">

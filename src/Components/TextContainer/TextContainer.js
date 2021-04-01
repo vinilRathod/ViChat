@@ -10,8 +10,6 @@ const TextContainer = ({ users }) => (
     <div>
       <h1>Vi - Chat <span role="img" aria-label="emoji">💬</span></h1>
       <h2>Created with  <span role="img" aria-label="emoji">❤️</span> by Vinil </h2>
-      <h2>Try it out right now! <span role="img" aria-label="emoji">⬅️</span></h2>
-      Do not refresh once entered , else  &#x26A0;
     </div>
     {
       

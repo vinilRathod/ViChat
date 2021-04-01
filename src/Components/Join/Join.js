@@ -18,6 +18,7 @@ const Join = () =>{
             Axios.post("https://vi-chatting.herokuapp.com/enter",{
                 room:room,
                 password:passwd,
+                name:name
             }).then(response =>{
                 if(response.data.entered){
                             history.push(`/chat?name=${name}&room=${room}`)
